@@ -1,0 +1,132 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main content container */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.content-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Form field styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Error message styling */
+span {
+    color: red;
+    font-size: 0.9rem;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Link styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .content-container {
+        padding: 20px;
+    }
+
+    input[type="submit"] {
+        font-size: 1rem;
+    }
+}
